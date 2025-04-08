@@ -9,13 +9,15 @@ import { KkjhgfdfghComponent } from './kkjhgfdfgh/kkjhgfdfgh.component';
 import { OtpComponent } from './otp/otp.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { L1Component } from './l1/l1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     KkkComponent,
     KkjhgfdfghComponent,
-    OtpComponent
+    OtpComponent,
+    L1Component
   ],
   imports: [
     BrowserModule,
