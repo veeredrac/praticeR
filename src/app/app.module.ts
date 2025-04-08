@@ -10,6 +10,8 @@ import { OtpComponent } from './otp/otp.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { L1Component } from './l1/l1.component';
+import { PkmComponent } from './pkm/pkm.component';
+import { J1Component } from './j1/j1.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { L1Component } from './l1/l1.component';
     KkkComponent,
     KkjhgfdfghComponent,
     OtpComponent,
-    L1Component
+    L1Component,
+    PkmComponent,
+    J1Component
   ],
   imports: [
     BrowserModule,
