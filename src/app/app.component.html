@@ -1,0 +1,16 @@
+
+
+<div class="otp-container">
+    <h2>Enter Your Phone Number</h2>
+    <input type="text" [(ngModel)]="phoneNumber" placeholder="Enter phone number" />
+    <button (click)="sendOtp()">Send OTP</button>
+  
+    <div *ngIf="otpSent">
+      <h2>Enter OTP</h2>
+      <input type="text" [(ngModel)]="enteredOtp" placeholder="Enter OTP" />
+      <button (click)="verifyOtp()">Verify OTP</button>
+    </div>
+  
+    <p *ngIf="verificationMessage" class="message">{{ verificationMessage }}</p>
+  </div>
+  
